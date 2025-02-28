@@ -648,6 +648,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bef5438b804b8a946a94af6b57286b05, type: 3}
+--- !u!1 &715933291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eac33b8c0eb114a4cbf3c7b447a18de4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096837069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &732046867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -919,6 +925,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 983512056}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1026014859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fccc2dedddb46a745ab88f295a104a09,
+    type: 3}
+  m_PrefabInstance: {fileID: 1548881874}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1096837069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1066,6 +1078,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ff06448e3c45342b944290fbfb2dd2,
     type: 3}
   m_PrefabInstance: {fileID: 1204925549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1235251374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b37d260ae303e4eb2e6707987aa1e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520444447}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1470355035
 GameObject:
@@ -1252,7 +1270,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b37d260ae303e4eb2e6707987aa1e1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2137738003}
   m_SourcePrefab: {fileID: 100100000, guid: f3b37d260ae303e4eb2e6707987aa1e1, type: 3}
 --- !u!1001 &1532792180
 PrefabInstance:
@@ -1402,6 +1424,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1520444447}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137738003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235251374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0911a5abd77f54ba4fb4efdcc28705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  champi: {fileID: 1235251374}
+  drapeau: {fileID: 1026014859}
+  boite: {fileID: 715933291}
+  _distanceMaximale: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
